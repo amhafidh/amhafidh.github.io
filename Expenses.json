@@ -1,0 +1,247 @@
+[
+  {
+    "S\/N":1.0,
+    "Pay To":"Abdulrahman",
+    "Reason for Pay":"Loan (MPESA)",
+    "Amount":200000.0,
+    "Charge":7700.0
+  },
+  {
+    "S\/N":2.0,
+    "Pay To":"Abdulrahman",
+    "Reason for Pay":"Loan (SMB)",
+    "Amount":350000.0,
+    "Charge":1652.54
+  },
+  {
+    "S\/N":3.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":4.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":5.0,
+    "Pay To":"Tips Charge",
+    "Reason for Pay":"Loan (Amana)",
+    "Amount":350000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":6.0,
+    "Pay To":"Reverse",
+    "Reason for Pay":"Loan Fail",
+    "Amount":null,
+    "Charge":297.4599999996
+  },
+  {
+    "S\/N":7.0,
+    "Pay To":"Pius",
+    "Reason for Pay":"Loan (DTB)",
+    "Amount":300000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":8.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":9.0,
+    "Pay To":"Abdulrahman",
+    "Reason for Pay":"Loan (Selcom)",
+    "Amount":250000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":10.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":11.0,
+    "Pay To":"Ona Stories",
+    "Reason for Pay":"Q1 Meeting Space",
+    "Amount":50000.0,
+    "Charge":null
+  },
+  {
+    "S\/N":12.0,
+    "Pay To":"Abdulrahman",
+    "Reason for Pay":"Loan (SMB)",
+    "Amount":285000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":13.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":14.0,
+    "Pay To":"Abdulrahman",
+    "Reason for Pay":"Loan (SMB)",
+    "Amount":65000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":15.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":16.0,
+    "Pay To":"Patience",
+    "Reason for Pay":"Loan (SMB)",
+    "Amount":1000000.0,
+    "Charge":1500.0
+  },
+  {
+    "S\/N":17.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":270.0
+  },
+  {
+    "S\/N":18.0,
+    "Pay To":"Abdulrahman",
+    "Reason for Pay":"Loan (SMB)",
+    "Amount":250000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":19.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":20.0,
+    "Pay To":"Abdulrahman Hafidh",
+    "Reason for Pay":"Loan (SMB)",
+    "Amount":250000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":21.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":22.0,
+    "Pay To":"Patience",
+    "Reason for Pay":"Loan (SMB)",
+    "Amount":100000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":23.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":24.0,
+    "Pay To":"Patience",
+    "Reason for Pay":"Loan (SMB)",
+    "Amount":100000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":25.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":26.0,
+    "Pay To":"Abdulrahman Hafidh",
+    "Reason for Pay":"Loan (SMB)",
+    "Amount":350000.0,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":27.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":28.0,
+    "Pay To":"Rambi rambi - Makere",
+    "Reason for Pay":"Sent 2 Okuli",
+    "Amount":null,
+    "Charge":500000.0
+  },
+  {
+    "S\/N":29.0,
+    "Pay To":"Trxn Fee- Rambirambi",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":1000.0
+  },
+  {
+    "S\/N":30.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":31.0,
+    "Pay To":"VAT Payablee",
+    "Reason for Pay":"Reverse Txn PB",
+    "Amount":null,
+    "Charge":180.0
+  },
+  {
+    "S\/N":32.0,
+    "Pay To":null,
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":null
+  },
+  {
+    "S\/N":33.0,
+    "Pay To":null,
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":null
+  },
+  {
+    "S\/N":34.0,
+    "Pay To":null,
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":null
+  },
+  {
+    "S\/N":null,
+    "Pay To":null,
+    "Reason for Pay":null,
+    "Amount":null,
+    "Charge":524760.0
+  }
+]
