@@ -86,14 +86,23 @@
   <i class="fas fa-scroll"></i>
   <h3>Constitution</h3>
 </a>
-    <div class="card">
-      <i class="fas fa-file-alt"></i>
-      <h3>Forms</h3>
-    </div>
-    <div class="card">
-      <i class="fas fa-chart-line"></i>
-      <h3>Investments</h3>
-    </div>
+    
+<!-- Forms button becomes a dropdown -->
+<div class="card" onclick="toggleFormOptions()" style="cursor:pointer;">
+  <i class="fas fa-file-alt"></i>
+  <h3>Forms</h3>
+</div>
+<div id="form-options" style="display:none; text-align:center; margin-top:10px;">
+  <a href="membership_declaration_form.pdf" class="btn btn-outline-primary btn-sm m-1" target="_blank">Membership Declaration</a>
+  <a href="next_of_kin_form.pdf" class="btn btn-outline-primary btn-sm m-1" target="_blank">Next of Kin Form</a>
+</div>
+
+<script>
+  function toggleFormOptions() {
+    const formMenu = document.getElementById("form-options");
+    formMenu.style.display = formMenu.style.display === "none" ? "block" : "none";
+  }
+</script>
   </main>
 </body>
 </html>
