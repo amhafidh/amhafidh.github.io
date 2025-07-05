@@ -87,22 +87,19 @@
   <h3>Constitution</h3>
 </a>
     
-<!-- Forms button becomes a dropdown -->
-<div class="card" onclick="toggleFormOptions()" style="cursor:pointer;">
-  <i class="fas fa-file-alt"></i>
-  <h3>Forms</h3>
-</div>
-<div id="form-options" style="display:none; text-align:center; margin-top:10px;">
-  <a href="membership_declaration_form.pdf" class="btn btn-outline-primary btn-sm m-1" target="_blank">Membership Declaration</a>
-  <a href="next_of_kin_form.pdf" class="btn btn-outline-primary btn-sm m-1" target="_blank">Next of Kin Form</a>
+<!-- Forms button becomes a dropdown menu -->
+<div class="dropdown card p-0" style="overflow: visible;">
+  <button class="btn w-100 text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border:none; background: none;">
+    <i class="fas fa-file-alt"></i>
+    <h3 style="display:inline-block; margin-left:10px;">Forms</h3>
+  </button>
+  <ul class="dropdown-menu w-100 text-center">
+    <li><a class="dropdown-item" href="membership_declaration_form.pdf" target="_blank">Membership Declaration</a></li>
+    <li><a class="dropdown-item" href="next_of_kin_form.pdf" target="_blank">Next of Kin Form</a></li>
+  </ul>
 </div>
 
-<script>
-  function toggleFormOptions() {
-    const formMenu = document.getElementById("form-options");
-    formMenu.style.display = formMenu.style.display === "none" ? "block" : "none";
-  }
-</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <div class="card">
       <i class="fas fa-chart-line"></i>
       <h3>Investments</h3>
