@@ -216,27 +216,7 @@
     "Amount":null,
     "Charge":180.0
   },
-  {
-    "S\/N":32.0,
-    "Pay To":null,
-    "Reason for Pay":null,
-    "Amount":null,
-    "Charge":null
-  },
-  {
-    "S\/N":33.0,
-    "Pay To":null,
-    "Reason for Pay":null,
-    "Amount":null,
-    "Charge":null
-  },
-  {
-    "S\/N":34.0,
-    "Pay To":null,
-    "Reason for Pay":null,
-    "Amount":null,
-    "Charge":null
-  },
+  
   {
     "S\/N":null,
     "Pay To":null,
