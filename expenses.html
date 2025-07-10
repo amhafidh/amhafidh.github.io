@@ -41,7 +41,22 @@
         const labels = Object.keys(grouped);
         const values = Object.values(grouped);
 
-    
+        new Chart(document.getElementById("expensesChart"), {
+          type: "bar",
+          data: {
+            labels: labels,
+            datasets: [{
+              label: "Expense Amount",
+              data: values,
+              backgroundColor: "#007bff"
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: { y: { beginAtZero: true } }
+          }
+        });
       });
   </script>
 </body>
