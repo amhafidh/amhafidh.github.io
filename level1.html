@@ -19,10 +19,14 @@
       margin-top: 50px;
     }
   </style>
+
+  <!-- ✅ Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
 </head>
 <body>
 
-  <!-- Name Prompt UI -->
+  <!-- ✅ Start screen with name input -->
   <div id="startScreen">
     <h2>Enter Your Name to Start</h2>
     <input type="text" id="playerName" placeholder="Your name" />
@@ -30,89 +34,17 @@
     <button onclick="startGame()">Start Game</button>
   </div>
 
-  <!-- Hidden until game starts -->
+  <!-- ✅ Game canvas and UI -->
   <canvas id="gameCanvas" width="500" height="400" style="display: none;"></canvas>
   <h2 id="score" style="display: none;">Score: 0</h2>
   <h2 id="message" style="display: none;"></h2>
 
   <script>
-    let canvas, ctx, ball, score, gameOver, startTime, playerName;
-
-    function startGame() {
-      playerName = document.getElementById('playerName').value.trim();
-      if (!playerName) {
-        alert("Please enter your name.");
-        return;
-      }
-
-      // Hide the prompt, show the game
-      document.getElementById('startScreen').style.display = 'none';
-      document.getElementById('gameCanvas').style.display = 'block';
-      document.getElementById('score').style.display = 'block';
-      document.getElementById('message').style.display = 'block';
-
-      // Initialize canvas
-      canvas = document.getElementById('gameCanvas');
-      ctx = canvas.getContext('2d');
-      ball = { x: 245, y: 100, radius: 10, dx: 2, dy: 0 };
-      score = 0;
-      gameOver = false;
-      startTime = Date.now();
-
-      updateGame();
-    }
-
-    function drawBall() {
-      ctx.beginPath();
-      ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
-      ctx.fillStyle = 'red';
-      ctx.fill();
-      ctx.closePath();
-    }
-
-    function drawScore() {
-      document.getElementById('score').innerText = `Score: ${score}`;
-    }
-
-    function updateGame() {
-      if (gameOver) return;
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      drawBall();
-      drawScore();
-      ball.x += ball.dx;
-      ball.y += ball.dy;
-
-      if (
-        ball.x - ball.radius <= 0 ||
-        ball.x + ball.radius >= canvas.width ||
-        ball.y - ball.radius <= 0 ||
-        ball.y + ball.radius >= canvas.height
-      ) {
-        gameOver = true;
-        document.getElementById('message').innerText = `GAME OVER, ${playerName}! Final Score: ${score}`;
-        return;
-      }
-
-      if (Date.now() - startTime > 10000) {
-        gameOver = true;
-        document.getElementById('message').innerText = `YOU WIN, ${playerName}! Final Score: ${score}`;
-        return;
-      }
-
-      score++;
-      requestAnimationFrame(updateGame);
-    }
-
-    document.addEventListener('keydown', (e) => {
-      if (!gameOver) {
-        switch (e.key) {
-          case 'ArrowLeft': ball.dx = -2; ball.dy = 0; break;
-          case 'ArrowRight': ball.dx = 2; ball.dy = 0; break;
-          case 'ArrowUp': ball.dy = -2; ball.dx = 0; break;
-          case 'ArrowDown': ball.dy = 2; ball.dx = 0; break;
-        }
-      }
-    });
-  </script>
-</body>
-</html>
+    // ✅ Firebase config – replace with your actual project info
+    const firebaseConfig = {
+      apiKey: "YOUR_API_KEY",
+      authDomain: "your-project-id.firebaseapp.com",
+      databaseURL: "https://your-project-id.firebaseio.com",
+      projectId: "your-project-id",
+      storageBucket: "your-project-id.appspot.com",
+      messagingSenderI
